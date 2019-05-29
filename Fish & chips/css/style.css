@@ -1,0 +1,120 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial;
+	background-image: url(img/fond.png);
+	margin:0 auto;
+	font-family: 'Open Sans',Arial;
+	
+}
+header {
+	text-align: center;
+	border-top: 5px solid #1B9CA2;
+	border-bottom: 5px solid #1B9CA2;
+	background-color: #25B3B4;
+	height: 200px;
+	margin-top: 100px
+}
+aside {
+	display: inline-block;
+	border: 3px solid darkcyan;
+	color: white;
+	background-color: #25B3B4;
+	margin-right: 5px;
+	margin-left: 5px;
+	border: 5px solid darkcyan;
+	font-size: 1em;
+	width: 30%;
+}
+h1,h2,h3 {
+	font-family: "Slabo 27px";
+	font-weight: normal;
+}
+section {
+	background-color: #b9e8dd;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 65%;
+
+
+}
+
+main {
+	text-align: center;
+	font-family: "Slabo 27px";
+	width:700px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+
+}
+section article {
+	display: inline-block;
+	width: 40%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+aside article {
+	margin-right: 10px;
+	margin-left: 10px,
+	font-size: 0.5em;
+
+}
+
+.container {
+	
+	
+	vertical-align: top;
+	display: block;
+}
+.vigne {
+	float: right;
+	margin: -70 -75 0 0;
+	
+
+}
+.readmor {
+	float: right;
+	background-color:#25B3B4; 
+	text-decoration: none;
+	padding: 10px;
+	height: 20px;
+	color: white;
+}
+.readmor::after {
+	content: "\f055";
+	font-family: "fontAwesome"
+}
+.poisson {
+	float: left;
+	overflow: hidden;
+	border-radius: 50px;
+	width: 90px;
+	height: 90px;
+
+}
+
+.art {
+
+	text-decoration: none;
+	color: white;
+
+}
+.art::before {
+	content: "\f075";
+	font-family: "fontAwesome";
+	font-weight: normal;
+	margin-left: 10px;
+}
+.clearfix {
+	clear: both;
+}
+.titre {
+	text-decoration: none;
+	color: white;
+	font-style: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+}

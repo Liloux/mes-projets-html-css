@@ -1,0 +1,174 @@
+div, header, section, main, article, aside, nav {
+	border: 1px dashed rgba(0,0,0,0.15);
+	background-color: rgba(0,0,0,0.05);
+}
+
+.clear {
+	border: 1px dashed red;
+}
+
+* {
+	box-sizing: border-box;
+}
+body {
+	background-image: url(../img/fond.png);
+	margin: 0 auto;
+	font-family: 'Open Sans',Arial;
+	color: #424953;
+	line-height: 1.5;
+}
+header {
+	text-align: center;
+	border-top: 5px solid #1B9CA2;
+	border-bottom: 5px solid #1B9CA2;
+	background-color: #25B3B4;
+	padding: 0 0 15px;
+	margin-top: 100px;
+}
+header nav a {
+	text-decoration: none;
+	font-size: 1.4em;
+	color: white;
+	font-family: "Slabo 27px";
+	padding: 15px;
+}
+.container {
+	max-width: 1100px;
+	min-width: 800px;
+	vertical-align: top;
+	display: block;
+	margin: 0 auto;
+	padding: 25px;
+}
+#recipe{
+	width: 68%;
+	padding: 2.5%;
+	margin: 50px 2% 5% 0;
+	
+}
+aside {
+	float: right;
+	width: 30%;
+	padding: 2.5%;
+	margin-top: 50px;
+	border: 5px solid darkcyan;
+	color: white;
+	background-color: #25B3B4;
+}
+h1,h2,h3 {
+	font-family: "Slabo 27px";
+	font-weight: normal;
+}
+h1 {
+	font-size: 2.5em;
+	padding: 20px;
+}
+h2 {
+	font-size: 2em;
+	text-align: center;
+	padding: 10px;
+}
+h3 {
+	font-size: 1.8em;
+	text-align: center;
+}
+h4{
+	font-size: 1em;
+	padding: 5px;
+	
+}
+#recipe h3 i {
+	color: #25B3B4;
+	margin: 0 5px;
+	font-size: 0.8em;
+}
+section {
+	width: 66%;
+	background-color: #b9e8dd;
+	float: left;
+	vertical-align: top;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+main {
+	text-align: center;
+	width:750px;
+	margin: 0 auto;
+	margin-bottom: ;
+
+}
+section article {
+	float: left;
+	width: 50%;
+	padding: 2.5%;
+	text-align: left;
+}
+aside article p{
+	font-size: 9pt;
+	margin: 0 0 15px;
+}
+
+h4 span{
+	color: #B6DFDD;
+}
+h2 span {
+	color: #1b9ca2;
+	font-size: 2em;
+	
+}
+
+
+
+.vigne {
+	float: right;
+	margin: -65px -65px 0 0;
+}
+.readmor {
+	float: right;
+	background-color:#25B3B4; 
+	text-decoration: none;
+	padding: 10px;
+	color: white;
+}
+.readmor::after {
+	content: "\f055";
+	font-family: "fontAwesome"
+}
+.poisson {
+	float: left;
+	overflow: hidden;
+	border-radius: 50px;
+	margin: 10px;
+}
+
+.art {
+
+	text-decoration: none;
+	color: #B6DFDD;
+}
+
+.clear {
+	clear: both;
+}
+.clearfix {
+	clear: both;
+}
+.clear {
+
+	clear: both;
+}
+.titre {
+	text-decoration: none;
+	color: white;
+	font-style: bold;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: "Slabo 27px";
+	font-size: 1.4em;
+}
+footer{
+	display: block;
+	margin-top: 25px;
+	text-align: center;
+}
