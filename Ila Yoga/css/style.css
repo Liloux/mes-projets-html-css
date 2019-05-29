@@ -1,0 +1,103 @@
+*{
+	box-sizing: border-box;
+} 
+body {
+	max-width: 1500px;
+	margin: 0 auto;
+	font-family: 'Open Sans';
+	
+}
+header {
+	background-color: white;
+	text-align: center;
+	display: block;
+	font-family: "Courgette";
+	font-size: 1.6em;
+	color: #4AC3B4;
+}
+main {
+	background-image: url(../img/fond.jpg);
+	background-size: cover; 
+	background-position: center-top;
+	padding: 20% 0;
+	margin-bottom: 0;
+}
+h1 {
+	font-family: "Courgette";
+	font-size: 3em;
+	font-weight: normal;
+	color: white;
+	text-align: center;
+	
+}
+h2 {
+	font-size: 2em;
+	font-family: "Courgette";
+	font-weight: normal;
+	padding-bottom: 5px;
+}
+div p {
+	text-align: center;
+	font-size: 2em;
+}
+a {
+	text-decoration: none;
+	text-align: center;
+	color: #4AC3B4;
+	padding: 10px;
+
+}
+article {
+	width: 30%;
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0 1.5% 0 1.5%;
+	text-align: center;
+	color: white;
+	padding: 20px;
+}
+footer {
+	text-align: center;
+	background-color:#4AC3B4;
+	padding: 50px; 
+	color: white;
+}
+nav a {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+nav a .fa {
+	display: block;
+}
+iframe {
+	width: 100%;
+}
+
+.presentation {
+	background-color: #ACA326;
+}
+.bouger{
+	background-color: #64b9aa;
+	font-family: "Courgette";
+	opacity: .8;
+	color: white;
+	padding: 25px;
+}
+.yoga {
+	width: 130px;
+
+}
+.offre h2 {
+	background-color: #4AC3B4;
+	font-family: 'Open Sans';
+	color: white;
+	text-align: center;
+	padding: 5px;
+	margin-top: 0;
+}
+.yo {
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 25px;
+}
