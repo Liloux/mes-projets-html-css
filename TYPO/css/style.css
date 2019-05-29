@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "SpecialElite";
+    src: url(../fonts/SpecialElite.woff) format("woff");
+    /* Il est primordial de bien préciser la bonne graisse pour un rendu professionnel, attention aux faux gras */
+    font-weight: 400;
+    /* Et également le bon style, attention au faux italique */
+    font-style: normal;
+}
+@font-face {
+    font-family: "Cardo";
+    src: url(../fonts/cardo/cardo-regular.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Cardo";
+    src: url(../fonts/cardo/cardo-italic.woff) format("woff");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Cardo";
+    src: url(../fonts/cardo/cardo-bold.woff) format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* GLOBAL */
+body {
+    min-width: 400px;
+    width: 50%;
+    margin: 0 auto;
+    color: #333;
+    line-height: 1.5;
+    font-family: "Cardo", serif;
+    /* Astuce pour voir la grille */
+    background-size: 100% 1.5em;
+    background-image: -webkit-linear-gradient(#eee .05em, transparent 1px);
+    background-image: -moz-linear-gradient(#eee .05em, transparent 1px);
+    background-image: linear-gradient(#eee .05em, transparent 1px);
+}
+
+h1, h2 {
+    font-size: 4em;
+    /* On ne met pas de texte en majuscule dans le HTML : il s’agit de présentation donc on le fait en CSS */
+    text-transform: uppercase;
+    line-height: 1.125;
+}
+
+h1, h2, h3 {
+    font-family: "SpecialElite", sans-serif;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 2.5em;
+    line-height: 1.2;
+    margin: 50px 0 0;
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1;
+    margin: 50px 0 0;
+}
+
+/* Petite fleuron pour habiller les titres secondaires */
+h3:before {
+    content: "❧ ";
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px dashed #BBB;
+}
+
+p {
+    margin: 1em 0;
+    text-align: justify;
+}
+
+/* CITATIONS */
+q {
+    font-style: italic;
+    display: block;
+    /* Quotes francaises */
+    quotes: "\00AB\0000a0" "\0000a0\00BB";
+    text-indent: -0.8em;
+    text-align: justify;
+    line-height: 2;
+    margin-bottom: 15px;
+    font-size: .9em;
+}
+
+/* Quotes anglaises : détecte l’attribut langue sur la balise */
+q:lang(en) {
+    quotes: "“\0000a0" "\0000a0”";
+    text-indent: inherit;
+}
+
+q:before,
+q:after {
+    font-weight: bold;
+    color: #CCC;
+}
+
+q:before {
+    content: open-quote;
+}
+
+q:after {
+  content: close-quote;
+}
+
+q:lang(en):before {
+    font-size: 2em;
+    position: absolute;
+    margin-left: -15px;
+    margin-top: -10px;
+}
+
+
+cite {
+    display: block;
+    text-align: right;
+}
+
+/* MAIN */
+article h2 + p:first-letter {
+    font-size: 2.7em;
+    line-height: 1;
+    font-weight: 400;
+    font-family: "SpecialElite", sans-serif;
+    margin: 0 5px -5px 0;
+    padding: 10px 0 0 0;
+    float: left;
+    color: #333;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 3em;
+    text-align: center;
+}
+
+footer small {
+    text-align: center;
+    display: block;
+    font-size: .8em;
+    color: #999;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    word-spacing: .3em;
+}
+
+footer:before {
+    font-size: 4em;
+    display: block;
+    content: "❦";
+}
