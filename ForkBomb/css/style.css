@@ -1,0 +1,138 @@
+*{
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+	color: #A49E9E;
+}
+
+header {
+	font-size: 1em;
+	font-style: italic;
+}
+a {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+a:hover {
+	color: #195F87;
+}
+header .logo a {
+	text-decoration: none;
+	background-color: white;
+	color: #A49E9E;
+	padding: 15px 25px;
+}
+header h2 {
+	display: inline-block;
+	padding: 20px;
+	margin-top: 40px;
+	text-align: left;
+	color: #A49E9E;
+}
+
+.menu {
+	width: 100%;
+	margin-top: 50px;
+	border-bottom: 4px solid #2CBCD6;
+}
+
+/* general ul style */
+.menu ul {
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.menu > ul, .menu .menu-sub-inner {
+	width: 900px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 1.875em;
+}
+
+.menu > ul > li {
+	display: inline-block;
+}
+.menu > ul > li > a {
+	font-weight: bold;
+	padding: 20px 30px;
+	color: #2CBCD6;
+	display: inline-block;
+}
+.menu > ul > li > a:hover {
+	color: white;	
+	background-color: #2CBCD6;
+}
+
+/*sub-menu handling*/
+
+.menu .menu-sub {
+	display: none;
+	position: absolute;
+	background: #2CBCD6;
+	width: 100%;
+	left: 0;
+}
+
+.menu ul li:hover .menu-sub {
+	display: block;
+	padding-bottom: 50px;
+}
+
+.menu .menu-sub-inner {
+	width: 45%;
+	float: left;
+	padding: 0 2.5%;
+}
+
+.menu .menu-sub-inner a {
+	line-height: 1.8;
+}
+
+.menu-sub h4{
+	color: ;
+	padding: 30px 0 15px;
+	margin: 0;
+	font-size: 14pt;
+}
+.container {
+	display: none; /* On le cache, on l'affichera ensuite avec un hover */
+	position: absolute; /* On sort le ul de son flux */
+	background: #2CBCD6;
+	left: 0;  /* On lui dit de se coller à 0px de la gauche */
+	right: 0; /* Pareil pour la droite */
+	margin-top: -21px;
+}
+
+.learn {
+	text-decoration: none;
+	text-align: center;
+	font-family: Comic;
+	color: white;
+	list-style-type: none;
+
+}
+.utile {
+	float: left;
+	font-size: 20px;
+	list-style: none;
+	margin-left: 24%;
+
+}
+.educ {
+	float: right;
+	font-size: 20px;
+	list-style: none;
+	margin-right: 24%;
+}
+nav ul li:hover .container {
+	display: block;
+	background: #53C6E1; 
+
+}
+nav ul > li:hover h2 a {
+	background-color: #4FC5DF;
+	color: white;
+
+}
+
+
